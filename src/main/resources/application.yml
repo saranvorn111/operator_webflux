@@ -1,0 +1,10 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/spring_reative
+    username: postgres
+    password: 1111
+
+  flyway:
+    url: jdbc:postgresql://localhost:5432/spring_reative
+    user: postgres
+    password: 1111
